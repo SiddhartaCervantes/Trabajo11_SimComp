@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://cf1np3axcng58" path="res://block.tscn" id="1_h0ha5"]
 [ext_resource type="Texture2D" uid="uid://cbqqlggklp6sy" path="res://Assets/jump.png" id="1_vy61y"]
-[ext_resource type="PackedScene" uid="uid://c4m3akfrhro2s" path="res://steve.tscn" id="2_eut7v"]
+[ext_resource type="PackedScene" uid="uid://c4m3akfrhro2s" path="res://Gato.tscn" id="2_eut7v"]
 [ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://addons/virtual_joystick/virtual_joystick_scene.tscn" id="4_bqw2o"]
 [ext_resource type="PackedScene" uid="uid://dd6wil3kneae2" path="res://coin.tscn" id="5_vmwub"]
 
@@ -36,7 +36,7 @@ ambient_light_sky_contribution = 0.75
 ssr_enabled = true
 ssao_enabled = true
 
-[node name="Level1" type="Node3D"]
+[node name="Principal" type="Node3D"]
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -145,7 +145,7 @@ transform = Transform3D(0.995932, -0.00840698, -0.0898139, 0.00955039, 0.999885,
 [node name="Block14" parent="Blocks" instance=ExtResource("1_h0ha5")]
 transform = Transform3D(-0.634971, -0.703776, 0.318609, 0.244499, -0.574293, -0.781287, 0.732825, -0.418194, 0.536732, -2.31935, 9.23838, 1.31733)
 
-[node name="Steve" parent="." instance=ExtResource("2_eut7v")]
+[node name="GATO" parent="." instance=ExtResource("2_eut7v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.97827, 1.01086, 2.97484)
 
 [node name="Coin1" parent="." instance=ExtResource("5_vmwub")]
